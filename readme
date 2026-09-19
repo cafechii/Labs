@@ -1,0 +1,5 @@
+cd ~
+git clone https://github.com/USERNAME/file-upload-labs.git
+cd ~/file-upload-labs/lab-file-upload
+php -S 127.0.0.1:8080 -t Labs server/router.php
+http://127.0.0.1:8080/menu/
